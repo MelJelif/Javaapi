@@ -1,4 +1,4 @@
-package dz2.dz1;
+package dz2.dz2;
 
 import java.io.FileReader; import java.io.FileWriter; import java.io.IOException; import java.util.logging.FileHandler; import java.util.logging.Level; import java.util.logging.Logger; import org.json.JSONArray; import org.json.JSONException; import org.json.JSONObject;
 
@@ -7,7 +7,7 @@ public class Main {
 public static void main(String[] args) {
     try {
         // Читаем исходную строку из файла
-        FileReader fileReader = new FileReader("input.json");
+        FileReader fileReader = new FileReader("input.txt");
         StringBuilder jsonString = new StringBuilder();
         int ch;
         while ((ch = fileReader.read()) != -1) {
